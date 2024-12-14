@@ -1,4 +1,13 @@
+.bentoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
 .upperContainer {
+  display: flex;
+}
+
+.lowerContainer {
   display: flex;
 }
 
