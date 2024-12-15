@@ -11,12 +11,12 @@
   display: flex;
 }
 
-.skillsWrapper {
+.skillsContainer {
   display: flex;
   flex-direction: column;
 }
 
-.skillsLowerSection {
+.skillsLowerContainer {
   display: flex;
 }
 
