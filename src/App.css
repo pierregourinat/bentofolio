@@ -48,10 +48,11 @@ ul {
 
 .skillsLowerContainer {
   display: flex;
+  height: 50%;
 }
 
 .btnWrapper {
   display: flex;
   flex-direction: column;
-  width: 10%;
+  width: 8%;
 }

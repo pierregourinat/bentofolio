@@ -17,11 +17,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px;
-
   border-radius: 32px;
-  padding: 15px;
+  padding: 15px 0;
   margin: 12px;
+  height: 33%;
   color: white;
   text-decoration: none;
   transition: transform 0.3s ease, opacity 0.3s ease;
@@ -39,6 +38,6 @@
 }
 
 .socialBtn svg {
-  width: 24px;
-  height: 24px;
+  width: 34px;
+  height: 34px;
 }
