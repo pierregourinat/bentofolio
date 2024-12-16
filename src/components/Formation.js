@@ -4,16 +4,14 @@ function Formation() {
   return (
     <div className="formationWrapper">
       <div>
-        <h2>PARCOURS INTÉGRATEUR WEB</h2>
+        <h3>PARCOURS INTÉGRATEUR WEB</h3>
         <p>
           En cours : certification professionnelle “Développeur Informatique“
         </p>
       </div>
       <div>
-        <h2>PARCOURS INTÉGRATEUR WEB</h2>
-        <p>
-          En cours : certification professionnelle “Développeur Informatique“
-        </p>
+        <h3>BACHELOR CONCEPTION ET MANAGEMENT DES ACTIVITÉS WEB</h3>
+        <p>Web International School, Campus de Montpellier</p>
       </div>
     </div>
   );
