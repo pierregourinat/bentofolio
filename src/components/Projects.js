@@ -1,11 +1,10 @@
 import "../styles/Projects.css";
+import GitHubProjects from "./GitHubProjects";
 
 function Projects() {
   return (
     <div className="projectsWrapper">
-      <div>Projet 1</div>
-      <div>Projet 2</div>
-      <div>Projet 3</div>
+      <GitHubProjects />
     </div>
   );
 }

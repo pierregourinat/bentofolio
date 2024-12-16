@@ -5,3 +5,40 @@
   padding: 15px;
   margin: 12px;
 }
+
+/* .socialLinksContainer {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+} */
+
+.socialBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+
+  border-radius: 32px;
+  padding: 15px;
+  margin: 12px;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.socialBtn:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+.githubBtn,
+.linkedinBtn,
+.dribbbleBtn {
+  background-color: darkcyan;
+}
+
+.socialBtn svg {
+  width: 24px;
+  height: 24px;
+}

@@ -22,8 +22,6 @@ function App() {
         </div>
         <div className="btnWrapper">
           <SocialsBtn />
-          <SocialsBtn />
-          <SocialsBtn />
         </div>
       </div>
       <div className="lowerContainer">
