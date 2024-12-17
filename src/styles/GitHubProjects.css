@@ -1,51 +1,13 @@
 .projectsContainer {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
+  flex-direction: column;
+  border: 1px solid darkslategrey;
+  background-color: darkolivegreen;
+  border-radius: 32px;
+  gap: 24px;
 }
 
 .projectCard {
-  width: 100%;
   border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 15px;
-  transition: transform 0.3s ease;
-  cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.projectCardHover {
-  transform: scale(1.05);
-}
-
-.projectCardTitle {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-bottom: 10px;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-}
-
-.projectCardDescription {
-  color: white;
-  margin-bottom: 15px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  width: 100%;
-}
-
-.projectCardTech {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
-}
-
-.projectCardTechTag {
-  background-color: #f0f0f0;
-  padding: 3px 8px;
-  border-radius: 4px;
-  font-size: 0.8rem;
+  margin: 12px;
 }

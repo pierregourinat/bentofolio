@@ -9,6 +9,7 @@
 import React from "react";
 import "../styles/SocialsBtn.css";
 import { FaGithub, FaLinkedin, FaDribbble } from "react-icons/fa";
+import { FaBluesky } from "react-icons/fa6";
 
 const SocialsBtn = () => {
   const socialProfiles = [
@@ -29,6 +30,12 @@ const SocialsBtn = () => {
       url: "https://dribbble.com/PeterGraphs",
       icon: <FaDribbble />,
       className: "dribbbleBtn",
+    },
+    {
+      platform: "BlueSky",
+      url: "https://bsky.app/profile/pet3r.bsky.social",
+      icon: <FaBluesky />,
+      className: "blueskyBtn",
     },
   ];
 

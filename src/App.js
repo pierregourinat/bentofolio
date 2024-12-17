@@ -1,9 +1,7 @@
 import "./App.css";
-import Experience from "./components/Experience";
 import Formation from "./components/Formation";
-import LastProject from "./components/LastProject";
+import GitHubProjects from "./components/GitHubProjects";
 import Profile from "./components/Profile";
-import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import SocialsBtn from "./components/SocialsBtn";
 import Tools from "./components/Tools";
@@ -15,19 +13,13 @@ function App() {
         <Profile />
         <div className="skillsContainer">
           <Skills />
-          <div className="skillsLowerContainer">
-            <Tools />
-            <LastProject />
-          </div>
+          <Tools />
         </div>
-        <div className="btnWrapper">
-          <SocialsBtn />
-        </div>
+        <SocialsBtn />
       </div>
       <div className="lowerContainer">
         <Formation />
-        <Experience />
-        <Projects />
+        <GitHubProjects />
       </div>
     </div>
   );
