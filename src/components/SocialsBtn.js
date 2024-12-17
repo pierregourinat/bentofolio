@@ -1,12 +1,3 @@
-// import "../styles/SocialsBtn.css";
-
-// function SocialsBtn() {
-//   return <button className="SocialsBtn">GitHub</button>;
-// }
-
-// export default SocialsBtn;
-
-import React from "react";
 import "../styles/SocialsBtn.css";
 import { FaGithub, FaLinkedin, FaDribbble } from "react-icons/fa";
 import { FaBluesky } from "react-icons/fa6";
