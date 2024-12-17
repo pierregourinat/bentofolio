@@ -24,7 +24,7 @@ const ProjectCard = ({ project }) => {
 
 const GitHubProjects = () => {
   return (
-    <div className="projectsContainer">
+    <div className="projectsContainer backgroundGradient">
       {projectsData.map((project, index) => (
         <ProjectCard key={index} project={project} />
       ))}

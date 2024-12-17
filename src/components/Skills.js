@@ -2,7 +2,7 @@ import "../styles/Skills.css";
 
 function Skills() {
   return (
-    <div className="skillsWrapper">
+    <div className="skillsWrapper backgroundGradient">
       <h2>Compétences</h2>
       <ul>
         <li>Frontend - HTML, CSS, SASS, Javascript, React, animation CSS</li>

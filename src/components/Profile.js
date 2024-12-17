@@ -3,7 +3,7 @@ import ProfilePhoto from "./ProfilePhoto";
 
 function Profile() {
   return (
-    <div className="profileWrapper">
+    <div className="profileWrapper backgroundGradient">
       <div>
         <ProfilePhoto />
       </div>

@@ -2,7 +2,7 @@ import "../styles/LastProject.css";
 
 function LastProject() {
   return (
-    <div className="lastProjectWrapper">
+    <div className="lastProjectWrapper backgroundGradient">
       <p>Voici mon dernier projet</p>
     </div>
   );
