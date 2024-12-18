@@ -24,12 +24,11 @@
 
 .githubBtn,
 .linkedinBtn,
-.dribbbleBtn {
-  background-color: darkcyan;
-}
-
+.dribbbleBtn,
 .blueskyBtn {
-  background-color: aquamarine;
+  background-color: #29634b;
+  opacity: 0.9;
+  backdrop-filter: blur(8px);
 }
 
 .socialBtn svg {
