@@ -41,14 +41,12 @@ h2 {
   font-size: 22px;
   margin: 0;
   text-transform: uppercase;
+  color: #ab9d87;
 }
 
 h3 {
   font-size: 18px;
-}
-
-ul {
-  list-style-type: none;
+  margin-bottom: 0;
 }
 
 .backgroundGradient {

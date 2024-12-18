@@ -1,6 +1,6 @@
 import "../styles/Career.css";
 
-function Formation() {
+function Career() {
   return (
     <div className="careerWrapper backgroundGradient">
       <div className="formationWrapper">
@@ -15,19 +15,22 @@ function Formation() {
         </div>
       </div>
       <div className="experienceWrapper">
-        <h2>Experience</h2>
+        <h2>Expérience</h2>
         <div className="experienceSection">
-          <h3>PROJETS OPENCLASSROOMS - INTEGRATION WEB</h3>
+          <h3>PROJETS OPENCLASSROOMS - 2024</h3>
+          <p>Intégration Web</p>
         </div>
         <div className="experienceSection">
-          <h3>FREELANCE - DESIGN GRAPHIQUE</h3>
+          <h3>FREELANCE - 2024</h3>
+          <p>Design graghique</p>
         </div>
         <div className="experienceSection">
-          <h3>COMMUNITY MANAGER - GOBLINZ STUDIO</h3>
+          <h3>COMMUNITY MANAGER - 2022/2023</h3>
+          <p>Goblinz Studio</p>
         </div>
       </div>
     </div>
   );
 }
 
-export default Formation;
+export default Career;

@@ -3,23 +3,33 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  justify-content: center;
+  gap: 40px;
   border-radius: 32px;
   padding: 28px;
 }
 
-.profileInfo h2 {
-  margin-bottom: 15px;
-}
-
 .profileInfo,
 .profileContact {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
-.phoneWrapper {
+.profileContact p {
+  margin: 0;
+}
+
+.phoneWrapper,
+.emailWrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
+}
+
+.emailWrapper svg {
+  width: 18px;
+  height: 18px;
 }
