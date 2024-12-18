@@ -1,6 +1,6 @@
+import { FaPhone } from "react-icons/fa6";
 import "../styles/Profile.css";
 import ProfilePhoto from "./ProfilePhoto";
-import { FaPhone } from "react-icons/fa6";
 
 function Profile() {
   return (
@@ -9,13 +9,15 @@ function Profile() {
         <ProfilePhoto />
       </div>
       <div className="profileInfo">
-        <p>Pierre Gourinat</p>
+        <h2>Pierre Gourinat</h2>
         <h1>Intégrateur web junior</h1>
       </div>
       <div className="profileContact">
         <p>pierregourinat@gmail.com</p>
-        <FaPhone />
-        <p>06 86 01 25 88</p>
+        <div className="phoneWrapper">
+          <FaPhone />
+          <p>06 86 01 25 88</p>
+        </div>
       </div>
     </div>
   );

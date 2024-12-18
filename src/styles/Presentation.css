@@ -1,7 +1,5 @@
 .presentationWrapper {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  grid-area: Presentation;
   border-radius: 32px;
-  padding: 15px;
+  padding: 5px 28px;
 }

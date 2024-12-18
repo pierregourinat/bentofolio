@@ -4,8 +4,9 @@ function Presentation() {
   return (
     <div className="presentationWrapper backgroundGradient">
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+        “Après plusieurs années dans le community management, j'entreprends une
+        reconversion en intégration web, animé par la passion du web design et
+        des interfaces.”
       </p>
     </div>
   );

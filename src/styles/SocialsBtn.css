@@ -1,4 +1,5 @@
 .socialLinksContainer {
+  grid-area: Socials;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
@@ -6,20 +7,17 @@
 
 .socialBtn {
   display: flex;
-  flex: 0 0 calc(50% - 12px);
+  width: calc(50% - 12px);
   justify-content: center;
   align-items: center;
-  border-radius: 32px;
-  /* padding: 15px;
-  margin: 12px; */
   color: white;
+  border-radius: 32px;
   text-decoration: none;
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .socialBtn:hover {
   transform: scale(1.1);
-  opacity: 0.9;
 }
 
 .githubBtn,

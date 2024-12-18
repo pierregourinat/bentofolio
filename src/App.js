@@ -13,18 +13,12 @@ function App() {
     <>
       <BackgroundImage src={backgroundImage} />
       <div className="bentoContainer">
-        <div className="upperContainer">
-          <Profile />
-          <div className="skillsContainer">
-            <Presentation />
-            <Skills />
-          </div>
-          <SocialsBtn />
-        </div>
-        <div className="lowerContainer">
-          <Formation />
-          <GitHubProjects />
-        </div>
+        <Profile />
+        <Presentation />
+        <Skills />
+        <SocialsBtn />
+        <Formation />
+        <GitHubProjects />
       </div>
     </>
   );

@@ -1,11 +1,40 @@
 .projectsContainer {
+  grid-area: Project;
   display: flex;
   flex-direction: column;
   border-radius: 32px;
-  gap: 24px;
+  overflow: auto;
+  padding: 10px;
 }
 
 .projectCard {
+  position: relative;
   border: 1px solid #ddd;
+  border-radius: 22px;
   margin: 12px;
+  overflow: hidden;
+  padding: 0 18px 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  background-color: #13281b;
+}
+
+.projectCard:hover {
+  transform: scale(1.02);
+}
+
+.projectCardTitle {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.projectCardDescription {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 5px;
 }

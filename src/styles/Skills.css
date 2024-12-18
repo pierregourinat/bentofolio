@@ -1,7 +1,21 @@
 .skillsWrapper {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  grid-area: Competence;
   border-radius: 32px;
-  padding: 15px;
+  padding: 28px;
+}
+
+.skillIcons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 10px;
+}
+
+.skillIcons > * {
+  width: 32px;
+  height: 32px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
