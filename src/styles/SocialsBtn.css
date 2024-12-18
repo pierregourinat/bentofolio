@@ -1,6 +1,6 @@
 .socialLinksContainer {
-  grid-area: Socials;
   display: flex;
+  align-self: flex-end;
   flex-wrap: wrap;
   gap: 24px;
 }

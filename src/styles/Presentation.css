@@ -1,5 +1,7 @@
 .presentationWrapper {
   grid-area: Presentation;
+  display: flex;
+  flex-direction: column;
   border-radius: 32px;
   padding: 28px;
 }

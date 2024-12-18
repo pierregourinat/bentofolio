@@ -21,7 +21,7 @@ body {
   gap: 24px;
   grid-auto-flow: row dense;
   grid-template-areas:
-    "Profile Profile Profile Presentation Presentation Presentation Competence Competence Competence Competence Socials Socials"
+    "Profile Profile Profile Presentation Presentation Presentation Presentation Competence Competence Competence Competence Competence"
     "Career Career Career Career Career Career Project Project Project Project Project Project";
   margin: 24px;
 }
