@@ -1,19 +1,21 @@
 .socialLinksContainer {
-  display: flex;
-  align-self: flex-end;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
+  width: 100%;
+  margin-top: auto;
+  height: 50%;
 }
 
 .socialBtn {
   display: flex;
-  width: calc(50% - 12px);
   justify-content: center;
   align-items: center;
   color: white;
   border-radius: 32px;
   text-decoration: none;
   transition: transform 0.3s ease, opacity 0.3s ease;
+  min-height: 80px;
 }
 
 .socialBtn:hover {

@@ -26,6 +26,25 @@ body {
   margin: 24px;
 }
 
+@media (max-width: 960px) {
+  body {
+    overflow: auto;
+  }
+
+  .bentoContainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "Profile"
+      "Presentation"
+      "Competence"
+      "Career"
+      "Project";
+    height: auto;
+    overflow-y: auto;
+  }
+}
+
 h1,
 h2,
 h3 {

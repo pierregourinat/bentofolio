@@ -13,13 +13,6 @@ function Presentation() {
         </p>
       </div>
       <SocialsBtn />
-      {/* <p>Mes mots-clefs :</p>
-      <ul>
-        <li>Frontend dev</li>
-        <li>Responsive design</li>
-        <li>Web design</li>
-        <li>UX/UI</li>
-      </ul> */}
     </div>
   );
 }
