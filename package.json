@@ -1,6 +1,7 @@
 {
   "name": "bento",
   "private": true,
+  "homepage": "https://pierregourinat.github.io/bentofolio/",
   "version": "0.1.0",
   "type": "module",
   "scripts": {
