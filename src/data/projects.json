@@ -2,16 +2,19 @@
   {
     "name": "Portfolio Bento design en React",
     "description": "Un portfolio personnel développé avec React et CSS",
+    "technologies": ["React", "CSS"],
     "githubLink": "https://github.com/pierregourinat/bentofolio"
   },
   {
-    "name": "Implémentation du frontend d’une application bancaire avec React",
-    "description": "La mission principale ici était d’intégrer le front-end avec le backend via des appels API et la gestion du state des composants grâce à la technologie Redux. J’ai pris en charge  la création de l’authentification de l’utilisateur, les appels à l’API REST, le développement du tableau de bord complet et responsive et enfin la gestion des données de l’application avec Redux. Cet important projet comprenait également l’utilisation d’une documentation Swagger et NodeJS pour exécuter le code Javascript côté serveur.",
+    "name": "Implémentation du frontend d'une application bancaire avec React",
+    "description": "La mission principale ici était d'intégrer le front-end avec le backend via des appels API et la gestion du state des composants grâce à la technologie Redux...",
+    "technologies": ["React", "Redux", "API REST", "Swagger", "NodeJS"],
     "githubLink": "https://github.com/pierregourinat/ArgentBank-Frontend"
   },
   {
-    "name": "Création d’une application web de location immobilière avec React",
-    "description": "Le développement moderne a apporté une bibliothèque Javascript populaire pour la création d’interfaces utilisateur qu’est React, que j’ai exploré à travers l’élaboration des ses composants réutilisables. React Router a été également un élément essentiel que j’ai du assimiler pour configurer la navigation entre les différentes pages de l’application.",
+    "name": "Création d'une application web de location immobilière avec React",
+    "description": "Le développement moderne a apporté une bibliothèque Javascript populaire pour la création d'interfaces utilisateur qu'est React...",
+    "technologies": ["React", "React Router"],
     "githubLink": "https://github.com/pierregourinat/Projet8_SEO_NinaCarducci"
   }
 ]

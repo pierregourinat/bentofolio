@@ -12,8 +12,6 @@
   border: 1px solid #ddd;
   border-radius: 22px;
   margin: 12px 0;
-  overflow: hidden;
-  padding: 0 18px 10px;
   cursor: pointer;
   transition: transform 0.3s ease, opacity 0.3s ease;
   background-color: #13281b;
@@ -27,6 +25,7 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin-top: 0;
 }
 
 .projectCardDescription {
@@ -37,4 +36,26 @@
   overflow: hidden;
   text-overflow: ellipsis;
   margin-top: 5px;
+}
+
+.techBadgesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.techBadge {
+  display: inline-block;
+  padding: 4px 8px;
+  background-color: #29634b;
+  color: white;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  white-space: nowrap;
+  transition: background-color 0.2s ease;
+}
+
+.projectCard {
+  padding: 18px;
 }
