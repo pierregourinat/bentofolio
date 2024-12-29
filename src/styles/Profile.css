@@ -17,6 +17,11 @@
   gap: 10px;
 }
 
+.profileContact a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .profileContact p {
   margin: 0;
 }

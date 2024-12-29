@@ -1,5 +1,4 @@
 import { FaPhone, FaRegEnvelope } from "react-icons/fa6";
-
 import "../styles/Profile.css";
 import ProfilePhoto from "./ProfilePhoto";
 
@@ -16,11 +15,15 @@ function Profile() {
       <div className="profileContact">
         <div className="emailWrapper">
           <FaRegEnvelope />
-          <p>pierregourinat@gmail.com</p>
+          <a href="mailto:pierregourinat@gmail.com">
+            <p>pierregourinat@gmail.com</p>
+          </a>
         </div>
         <div className="phoneWrapper">
           <FaPhone />
-          <p>06 86 01 25 88</p>
+          <a href="tel:0686012588">
+            <p>06 86 01 25 88</p>
+          </a>
         </div>
       </div>
     </div>
