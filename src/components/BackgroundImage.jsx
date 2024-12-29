@@ -1,5 +1,5 @@
 import "../styles/BackgroundImage.css";
-import backgroundImage from "/images/mykyta-martynenko-_1UF_3TlKcQ-unsplash.jpg";
+import backgroundImage from "/images/fern.jpg";
 
 const BackgroundImage = () => {
   return (

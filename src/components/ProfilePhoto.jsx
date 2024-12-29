@@ -1,5 +1,5 @@
 import "../styles/ProfilePhoto.css";
-import profilePhoto from "/images/logo-penrose-pg2-2.png";
+import profilePhoto from "/images/peter_graphs.png";
 
 function ProfilePhoto() {
   return (
