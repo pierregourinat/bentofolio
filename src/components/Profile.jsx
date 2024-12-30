@@ -21,7 +21,7 @@ function Profile() {
         </div>
         <div className="phoneWrapper">
           <FaPhone />
-          <a href="tel:0686012588">
+          <a href="tel:+33686012588">
             <p>06 86 01 25 88</p>
           </a>
         </div>

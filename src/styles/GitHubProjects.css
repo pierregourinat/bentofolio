@@ -12,7 +12,8 @@
   border: 1px solid #ddd;
   border-radius: 22px;
   margin: 12px 0;
-  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
   transition: transform 0.3s ease, opacity 0.3s ease;
   background-color: #13281b;
 }

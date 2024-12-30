@@ -1,4 +1,3 @@
-import { useState } from "react";
 import PropTypes from 'prop-types';
 import projectsData from "../data/projects.json";
 import "../styles/GitHubProjects.css";
@@ -14,18 +13,13 @@ TechBadge.propTypes = {
 };
 
 const ProjectCard = ({ project }) => {
-  const [isHovered, setIsHovered] = useState(false);
-
-  const handleClick = () => {
-    window.open(project.githubLink, "_blank");
-  };
 
   return (
-    <div
-      className={`projectCard ${isHovered ? "projectCardHover" : ""}`}
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-      onClick={handleClick}
+    <a
+      href={project.githubLink}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="projectCard"
     >
       <h3 className="projectCardTitle">{project.name}</h3>
       <div className="projectCardDescription">{project.description}</div>
@@ -34,7 +28,7 @@ const ProjectCard = ({ project }) => {
           <TechBadge key={index} tech={tech} />
         ))}
       </div>
-    </div>
+    </a>
   );
 };
 
