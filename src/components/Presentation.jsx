@@ -7,9 +7,9 @@ function Presentation() {
       <div>
         <h2>PRESENTATION</h2>
         <p>
-          Passioné par le web design, je souhaite mettre mon expérience et mes
-          nouvelles compétences techniques au service de l'intégration web et la
-          création d'interfaces optimisées.
+          Passionné par le web design, je souhaite mettre mon expérience et mes
+          nouvelles compétences techniques au service de l&apos;intégration web et la
+          création d&apos;interfaces optimisées.
         </p>
       </div>
       <SocialsBtn />
